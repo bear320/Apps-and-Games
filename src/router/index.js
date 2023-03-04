@@ -5,13 +5,13 @@ const routes = [
         path: "/",
         name: "home",
         component: () => import("@/views/Home.vue"),
-        meta: { title: "Omnipotent" },
+        meta: { title: "首頁 | Omnipotent" },
     },
     {
         path: "/passwordGenerator",
         name: "passwordGenerator",
         component: () => import("@/views/PasswordGenerator.vue"),
-        meta: { title: "密碼產生器" },
+        meta: { title: "密碼產生器 | Omnipotent" },
     },
 ];
 

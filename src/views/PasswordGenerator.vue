@@ -1,5 +1,5 @@
 <template>
-    <div class="container-md mx-auto py-3">
+    <section class="container-md mx-auto py-3">
         <nav
             style="
                 --bs-breadcrumb-divider: url(
@@ -17,7 +17,7 @@
                 </li>
             </ol>
         </nav>
-        <section class="view d-flex justify-content-center align-items-center">
+        <div class="view d-flex justify-content-center align-items-center">
             <div class="application">
                 <h2>密碼產生器</h2>
                 <div class="app-wrapper">
@@ -61,8 +61,8 @@
                     </button>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </template>
 
 <script>

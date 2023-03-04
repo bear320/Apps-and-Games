@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
         <div class="container-md">
             <router-link class="navbar-brand" to="/">Omnipotent</router-link>
             <button
@@ -27,25 +27,25 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link to="/passwordGenerator" class="dropdown-item"> 密碼產生器 </router-link>
+                                <router-link to="/passwordGenerator" class="dropdown-item">密碼產生器</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">QR Code 產生器</router-link>
+                                <router-link to="" class="dropdown-item disabled">QR Code 產生器（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">計算機</router-link>
+                                <router-link to="" class="dropdown-item disabled">計算機（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">氣象 APP</router-link>
+                                <router-link to="" class="dropdown-item disabled">氣象 APP（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">翻譯 APP</router-link>
+                                <router-link to="" class="dropdown-item disabled">翻譯 APP（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">打字測試</router-link>
+                                <router-link to="" class="dropdown-item disabled">打字測試（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">虛擬貨幣匯率</router-link>
+                                <router-link to="" class="dropdown-item disabled">虛擬貨幣匯率（待完成）</router-link>
                             </li>
                         </ul>
                     </li>
@@ -61,16 +61,16 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link to="" class="dropdown-item">圈圈叉叉</router-link>
+                                <router-link to="" class="dropdown-item disabled">圈圈叉叉（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">俄羅斯方塊</router-link>
+                                <router-link to="" class="dropdown-item disabled">俄羅斯方塊（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">擲骰子</router-link>
+                                <router-link to="" class="dropdown-item disabled">擲骰子（待完成）</router-link>
                             </li>
                             <li>
-                                <router-link to="" class="dropdown-item">翻牌遊戲</router-link>
+                                <router-link to="" class="dropdown-item disabled">翻牌遊戲（待完成）</router-link>
                             </li>
                         </ul>
                     </li>
