@@ -261,17 +261,17 @@ export default {
                     }
 
                     &#weak::before {
-                        width: 40%;
+                        width: 25%;
                         background-color: #e64a4a;
                     }
 
                     &#good::before {
-                        width: 60%;
+                        width: 50%;
                         background-color: #eb892a;
                     }
 
                     &#great::before {
-                        width: 80%;
+                        width: 75%;
                         background-color: #f1c80b;
                     }
 
