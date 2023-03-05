@@ -45,17 +45,11 @@
                         <p class="title">密碼設定</p>
                         <ul class="options">
                             <li class="option" v-for="option in options" :key="option.id" v-cloak>
-                                <input
-                                    type="checkbox"
-                                    :id="option.id"
-                                    v-model="option.checked"
-                                    @input="generatePassword"
-                                />
+                                <input type="checkbox" :id="option.id" v-model="option.checked" />
                                 <label :for="option.id">{{ option.label }}</label>
                             </li>
                         </ul>
                     </div>
-
                     <button class="generate-btn" ref="generateBtn" @click="generatePassword">
                         產生密碼<span class="material-symbols-rounded">refresh</span>
                     </button>
