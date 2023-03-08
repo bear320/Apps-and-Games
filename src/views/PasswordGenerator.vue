@@ -19,7 +19,7 @@
         </nav>
         <div class="view d-flex justify-content-center align-items-center">
             <div class="application">
-                <h2>密碼產生器</h2>
+                <h2 class="title">密碼產生器</h2>
                 <div class="app-wrapper">
                     <div class="input-box">
                         <input type="text" ref="pwInput" v-model="password" disabled />
@@ -202,6 +202,7 @@ export default {
                 font-size: 1.31rem;
                 padding: 1rem 1.75rem;
                 border-bottom: 1px solid #d4dbe5;
+                text-align: center;
             }
 
             .app-wrapper {
@@ -233,7 +234,6 @@ export default {
 
                         &:hover {
                             color: #43a047;
-                            // color: #43a047 !important;
                         }
                     }
                 }

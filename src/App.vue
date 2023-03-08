@@ -27,13 +27,13 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link to="/passwordGenerator" class="dropdown-item">密碼產生器</router-link>
+                                <router-link to="/calculator" class="dropdown-item">計算機</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/password-generator" class="dropdown-item">密碼產生器</router-link>
                             </li>
                             <li>
                                 <router-link to="" class="dropdown-item disabled">QR Code 產生器（待完成）</router-link>
-                            </li>
-                            <li>
-                                <router-link to="" class="dropdown-item disabled">計算機（待完成）</router-link>
                             </li>
                             <li>
                                 <router-link to="" class="dropdown-item disabled">氣象 APP（待完成）</router-link>
