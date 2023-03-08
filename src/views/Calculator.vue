@@ -112,6 +112,9 @@ export default {
                 return;
             }
             this.currentValue = `${this.operator(previous, current)}`;
+            this.currentValue = parseFloat(this.currentValue)
+                .toFixed(10)
+                .replace(/\.?0+$/, "");
             this.operator = null;
             this.operatorClicked = false;
             this.equalPressed = true;
